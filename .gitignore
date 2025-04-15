@@ -1,0 +1,82 @@
+# Ignore Visual Studio and Rider IDE files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.cache
+*.sln.docstates
+*.vcxproj.user
+
+# Ignore build files and binaries
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ibrary/
+
+# Ignore Logs, Debugging, and Crash Reports
+*.log
+*.tlog
+*.pidb
+*.svclog
+*.pdb
+*.tmp
+
+# Ignore User-Specific Files
+*.userprefs
+*.csproj.user
+*.pidb.meta
+*.suo
+*.tmp
+
+# Ignore .NET Core build files
+*.dll
+*.exe
+*.pdb
+*.db
+*.lock.json
+project.lock.json
+*.nuget
+*.nupkg
+.nuget/
+packages/
+!packages/repositories.config
+
+# Ignore Unity-specific files (if applicable)
+Temp/
+Library/
+Logs/
+MemoryCaptures/
+Assets/StreamingAssets/*
+*.apk
+*.unitypackage
+
+# Ignore game save and cache files
+SaveGames/
+*.sav
+*.cache
+
+# Ignore Memento/Backup files
+*.bak
+*.old
+*.backup
+Backup/
+
+# Ignore Environment Files
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Ignore JetBrains Rider IDE files
+.idea/
+*.iml
+out/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
